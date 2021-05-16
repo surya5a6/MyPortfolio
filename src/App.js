@@ -5,7 +5,9 @@ import SideBar from "./components/SideBar/SideBar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
-import Projects from "./components/Projects/Projects"
+import Projects from "./components/Projects/Projects";
+import Connect from "./components/Connect/Connect";
+import Skills from "./components/Skills/Skills";
 
 function App() {
   const [sidebar, setSidebar] = useState('sidebar');
@@ -23,6 +25,8 @@ function App() {
       <About/>
       <Services/>
       <Projects/>
+      <Connect/>
+      <Skills/>
     </>
   );
 }
