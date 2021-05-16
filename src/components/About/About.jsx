@@ -14,8 +14,8 @@ const About = (props) => {
             <h2>about</h2>
             <div className="underline"></div>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet maxime dolores vel fugiat quas aperiam omnis laboriosam necessitatibus, rem commodi totam itaque, voluptate id dolorum quisquam facere ex? Quod sed rem praesentium iure distinctio modi quis! Adipisci quia odio iusto.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto velit, consequatur harum numquam sit ipsa delectus sed voluptatem voluptates sequi! Maxime illo nihil, quas vero nam accusamus architecto velit deleniti. Iure officia deserunt possimus cumque suscipit adipisci voluptatibus dolores tempora.</p>
+          <p>I like to solve problems. Throughout my career, I have been driven by intellectual and technical curiosity to build web applications that will be more user-friendly, customer-centric and give the best performance.</p>
+          <p>My technological curiosity also drives me to be a constant learner and to explore new technologies.</p>
           <a href="about.html" className="btn">about <me></me></a>
         </article>
       </div>
