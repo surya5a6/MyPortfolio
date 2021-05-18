@@ -8,6 +8,7 @@ import Services from "./components/Services/Services";
 import Projects from "./components/Projects/Projects";
 import Connect from "./components/Connect/Connect";
 import Skills from "./components/Skills/Skills";
+import Timeline from "./components/Timeline/Timeline";
 
 function App() {
   const [sidebar, setSidebar] = useState('sidebar');
@@ -27,6 +28,7 @@ function App() {
       <Projects/>
       <Connect/>
       <Skills/>
+      <Timeline/>
     </>
   );
 }
