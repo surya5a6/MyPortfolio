@@ -1,5 +1,4 @@
 import React, {useEffect} from 'react';
-
 import "./styles.css";
 
 export const AboutSP = (props) => {
