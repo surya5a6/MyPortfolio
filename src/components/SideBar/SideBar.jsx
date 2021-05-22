@@ -28,17 +28,17 @@ const SideBar = (props) => {
           </ul>
           <ul className="social-icons">
             <li>
-              <a href="#" className="social-icon">
+              <a href="https://facebook.com/SURYATEJAAMR/" target="_blank" className="social-icon" rel="noreferrer">
                 <FontAwesomeIcon icon={faFacebook}/>
               </a>
             </li>
             <li>
-              <a href="#" className="social-icon">
+              <a href="https://www.linkedin.com/in/suryatejamalisetti/" target="_blank" className="social-icon" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin}/>
               </a>
             </li>
             <li>
-              <a href="#" className="social-icon">
+              <a href="https://twitter.com/surya91684651" target="_blank" className="social-icon" rel="noreferrer">
                 <FontAwesomeIcon icon={faTwitter}/>
               </a>
             </li>
