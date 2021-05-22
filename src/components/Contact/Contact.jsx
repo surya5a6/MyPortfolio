@@ -18,7 +18,7 @@ const Contact = (props) => {
         </p>
         <p className='page-text'>
           You can also reach me on Twitter at 
-          <a href='https://www.linkedin.com/in/suryatejamalisetti/' target='_blank'> LinkedIn</a>
+          <a href='https://www.linkedin.com/in/suryatejamalisetti/' target='_blank' rel="noreferrer"> LinkedIn</a>
         </p>
       </div>
     </section>

@@ -21,12 +21,12 @@ const Hero = (props) => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/suryatejamalisetti/" target="_blank" className="social-icon">
+              <a href="https://www.linkedin.com/in/suryatejamalisetti/" target="_blank" className="social-icon" rel="noreferrer">
                 <FontAwesomeIcon icon={faLinkedin}/>
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/surya91684651" target="_blank" className="social-icon">
+              <a href="https://twitter.com/surya91684651" target="_blank" className="social-icon" rel="noreferrer">
                 <FontAwesomeIcon icon={faTwitter}/>
               </a>
             </li>

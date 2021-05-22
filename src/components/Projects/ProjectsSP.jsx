@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
-// import './styles.css';
+import { Link } from 'react-router-dom';
+import "./styles.css";
 import project1 from './project-1.jpeg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome } from '@fortawesome/free-solid-svg-icons';
@@ -22,9 +23,9 @@ export const ProjectsSP = (props) => {
         <article className="single-project">
           <div className="project-container">
             <img src={project1} alt=""/>
-            <a href="" className='project-icon'>
+            <Link to="/projects" className='project-icon'>
               <FontAwesomeIcon  icon={faHome}/>
-            </a>
+            </Link>
           </div>
           <div className="project-details">
             <h4>social-media-app</h4>
@@ -33,7 +34,7 @@ export const ProjectsSP = (props) => {
             </p>
             <div className="project-footer">
               <span><FontAwesomeIcon className='icon' icon={faGithub}/></span>
-              <a href="https://github.com/surya5a6/social-media-app" target="_blank">source code</a>
+              <a href="https://github.com/surya5a6/social-media-app" target="_blank" rel="noreferrer">source code</a>
             </div>
           </div>
         </article>
