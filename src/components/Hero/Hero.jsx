@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./styles.css";
 import myPicture from "./myPicture.jpeg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,20 +13,20 @@ const Hero = (props) => {
           <div className="underline"></div>
           <h1>I'm surya</h1>
           <h4>Professional web UI/UX developer</h4>
-          <a href="contact.html" className="btn contact-btn">hire me</a>
+          <Link to="/contact" className="btn contact-btn">hire me</Link>
           <ul className="social-icons hero-icons">
             <li>
-              <a href="#" className="social-icon">
+              <a href="facebook.com/SURYATEJAAMR/" target="_blank" className="social-icon">
                 <FontAwesomeIcon icon={faFacebook}/>
               </a>
             </li>
             <li>
-              <a href="#" className="social-icon">
+              <a href="https://www.linkedin.com/in/suryatejamalisetti/" target="_blank" className="social-icon">
                 <FontAwesomeIcon icon={faLinkedin}/>
               </a>
             </li>
             <li>
-              <a href="#" className="social-icon">
+              <a href="https://twitter.com/surya91684651" target="_blank" className="social-icon">
                 <FontAwesomeIcon icon={faTwitter}/>
               </a>
             </li>

@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from 'react-router-dom'
 import "./styles.css";
 import connect from "./connect.mp4";
 
 const Connect = (props) => {
   return (
     <section className="connect">
-      <video controls autoPlay muted loop className="parent-container">
+      <video controls autoPlay muted loop className="parent-container" poster>
         <source src={connect} type="video/mp4"/>
         Sorry, your browser doesnot support embedded videos
       </video>
@@ -15,7 +16,7 @@ const Connect = (props) => {
           <div className="underline"></div>
         </div>
         <p className="video-text">Would you like to know more about me? </p>
-        <a href="contact.html" className="btn">contact me</a>
+        <Link to='/contact' className="btn">contact me</Link>
       </div>
     </section>
   )

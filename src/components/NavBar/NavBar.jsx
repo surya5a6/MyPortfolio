@@ -1,10 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles.css";
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const NavBar = (props) => { 
   const { showSidebar } = props;
+  useEffect(() => {
+    let navbar = document.getElementById('nav');
+    window.addEventListener('scroll', function() {
+      if(window.pageYOffset > 80) {
+        navbar.classList.add('navbar-fixed');
+      } else {
+        navbar.classList.remove('navbar-fixed');
+      }
+    })
+  }, []);
   return (
     <nav className="nav" id="nav">
       <div className="nav-center">
@@ -18,16 +29,16 @@ const NavBar = (props) => {
         </div>
         <ul className="nav-links">
           <li>
-            <a href="index.html">home</a>
+            <Link className="link" to="/">Home</Link>
           </li>
           <li>
-            <a href="about.html">about</a>
+            <Link className="link" to="/about">about</Link>
           </li>
           <li>
-            <a href="projects.html">projects</a>
+            <Link  className="link" to="/projects">projects</Link>
           </li>
           <li>
-            <a href="contact.html">contact</a>
+            <Link className="link" to="/contact">contact</Link>
           </li>
         </ul>
       </div>

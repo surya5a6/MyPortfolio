@@ -1,0 +1,18 @@
+.page-text p {
+  text-align: center;
+}
+.page-text span {
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
+.page-text span:hover {
+  color: var(--clr-primary-1);
+}
+.page-text a {
+  text-transform: capitalize;;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
+.page-text a:hover {
+  color: var(--clr-primary-1);
+}
