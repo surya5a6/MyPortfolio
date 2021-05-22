@@ -8,7 +8,8 @@
   perspective: 1500px;
 }
 .card-side {
-  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
   transition: all 2s linear;
   position: absolute;
   top: 0;
@@ -16,6 +17,8 @@
   width: 100%;
   height: 100%;
   border-radius: var(--radius);
+  -webkit-transform: translate3d(0,0,0);
+  visibility: visible;
 }
 .card-front {
   background: var(--clr-white);
@@ -35,7 +38,8 @@
 }
 .card-front img {
   height: 13rem;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
 }
@@ -48,7 +52,8 @@
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .card-footer p {
   margin-bottom: 0;

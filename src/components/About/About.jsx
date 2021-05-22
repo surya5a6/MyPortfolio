@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import "./styles.css";
 import about from "./about.jpg"
 
@@ -16,7 +17,7 @@ const About = (props) => {
           </div>
           <p>I like to solve problems. Throughout my career, I have been driven by intellectual and technical curiosity to build web applications that will be more user-friendly, customer-centric and give the best performance.</p>
           <p>My technological curiosity also drives me to be a constant learner and to explore new technologies.</p>
-          <a href="about.html" className="btn">about <me></me></a>
+          <Link to='/about' className="btn">about me</Link>
         </article>
       </div>
     </section>

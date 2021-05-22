@@ -11,7 +11,6 @@ Global classes
   letter-spacing: var(--spacing);
   display: inline-block;
   font-weight: 700;
-  -webkit-transition: var(--transition);
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
@@ -56,5 +55,29 @@ Global classes
 .bg-grey {
   background: var(--clr-grey-10);
 }
+.single-page {
+  background: var(--clr-primary-10);
+  min-height: calc(100vh - 5rem - 190px);
+}
+.page-info {
+  max-width: 700px;
+}
+
+
+/**
+==============
+single page styles
+==============
+**/
+.page-info a {
+  text-transform: uppercase;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+}
+
+.page-info a:hover {
+  color: var(--clr-primary-1);
+}
+
 
 

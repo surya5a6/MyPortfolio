@@ -43,17 +43,19 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    column-gap: 2rem;
+    -moz-column-gap: 2rem;
+         column-gap: 2rem;
     justify-self: end;
   }
-  .nav-links a {
+  .nav-links .link{
     text-transform: capitalize;
     color: var(--clr-grey-1);
     font-weight: bold;
     transition: var(--transition);
+    cursor: pointer;
   }
-  .nav-links a:hover {
-    color: var(--clr-primary-5)
+  .nav-links .link:hover {
+    color: var(--clr-primary-5);
   }
   .nav-center {
     display: grid;
