@@ -73,9 +73,9 @@
   box-shadow: var(--light-shadow);
 }
 .first-name{
-  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)
 }
 .last-name{
-  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
   color: var(--clr-primary-5);
 }

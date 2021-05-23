@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 import "./styles.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -14,16 +15,16 @@ const SideBar = (props) => {
           </button>
           <ul className="sidebar-links">
             <li>
-              <a href="index.html">home</a>
+              <Link className="link" onClick={hideSidebar} to="/">home</Link>
             </li>
             <li>
-              <a href="about.html">about</a>
+              <Link className="link" onClick={hideSidebar} to="/about">about</Link>
             </li>
             <li>
-              <a href="projects.html">projects</a>
+              <Link className="link" onClick={hideSidebar} to="/projects">projects</Link>
             </li>
             <li>
-              <a href="contact.html">contact</a>
+              <Link className="link" onClick={hideSidebar} to="/contact">contact</Link>
             </li>
           </ul>
           <ul className="social-icons">
