@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
-import project1 from "./project-1.jpeg";
-import project2 from "./project-2.jpeg";
-import project3 from "./project-3.jpeg";
+// import project1 from "./project-1.jpeg";
+// import project2 from "./project-2.jpeg";
+// import project3 from "./project-3.jpeg";
 import project4 from "./project-4.jpeg";
 import myPic from "./myPicture.jpeg";
 
