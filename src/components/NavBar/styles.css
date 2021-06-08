@@ -80,3 +80,11 @@ TODO
   text-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
   color: var(--clr-primary-5);
 }
+
+.first-name{
+  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.3)
+}
+.last-name{
+  text-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+  color: var(--clr-primary-5);
+}
